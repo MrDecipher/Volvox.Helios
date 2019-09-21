@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2005
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volvox.Helios.Service", "src\Volvox.Helios.Service\Volvox.Helios.Service.csproj", "{B3712028-2D66-479D-ACF8-6B9442E15F65}"
 EndProject
@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Integration", "test\Tests.Integration\Tests.Integration.csproj", "{7506C056-80FE-4544-B645-EBE619530335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,12 +47,17 @@ Global
 		{8F1467D2-3BAB-4BD1-8478-E86F23179D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F1467D2-3BAB-4BD1-8478-E86F23179D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F1467D2-3BAB-4BD1-8478-E86F23179D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7506C056-80FE-4544-B645-EBE619530335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7506C056-80FE-4544-B645-EBE619530335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7506C056-80FE-4544-B645-EBE619530335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7506C056-80FE-4544-B645-EBE619530335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8F1467D2-3BAB-4BD1-8478-E86F23179D75} = {663B0812-383E-4172-B210-92B3DB384257}
+		{7506C056-80FE-4544-B645-EBE619530335} = {663B0812-383E-4172-B210-92B3DB384257}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {385C6906-A43B-45D2-B3B3-0EB49E654CE3}
